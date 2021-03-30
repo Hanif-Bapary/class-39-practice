@@ -1,0 +1,331 @@
+@media (max-width:1400px){
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    .mobile-menu-check {
+        display: none;
+    }
+    .contact-right-row {
+        width: 50%;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+    .contact-form.clear {
+        margin-right: 20px;
+        box-sizing: border-box;
+    }
+}
+.primary-manu span{
+    display: none;
+}
+@media (max-width:1090px){
+    .sevice-box {
+        width: 48%;
+    }
+    .sevice-box:nth-child(3n+3) {
+        margin-right: 20px;
+    }.sevice-box:nth-child(2n+2) {
+        margin-right: 0;
+    } 
+}
+@media (max-width:1050px){
+    .service-content h1 {
+        margin-bottom: 10px;
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .service-content p {
+        font-size: 25px;
+    }
+    .video-content h3 {
+        font-size: 40px;
+        margin-bottom: 18px;
+    }
+    .video-content p {
+        line-height: 30px;
+    }
+    .section-title h2 {
+        font-size: 48px;
+        padding: 50px 0 15px;
+    }
+    .section-title p {
+        font-size: 17px;
+        padding-bottom: 50px;
+    }
+    .p-hadding h4 {
+        padding: 30px 0 20px 20px;
+    }
+    .p-hadding h1 {
+        font-size: 50px;
+        padding: 0px 0 27px 24px;
+        font-weight: 600;
+    }
+    .p-content ul li {
+        font-size: 22px;
+        padding: 23px 0 0px 25px;
+    }
+    .member-data {
+        width: 48%;
+        margin-right: 2%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:992px){
+    .header-section {
+        position: inherit;
+        margin-bottom: -62px;
+    }
+    .header-logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .logo img {
+        float: inherit;
+        margin-right: 5px;
+        position: relative;
+        top: 23px;
+    }
+    .header-menu {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .primary-manu {
+        text-align: left;
+    }
+    /* mobile-menu-icon */
+    .primary-manu ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .primary-manu ul li {
+        display: block;
+    }
+    .primary-manu ul li a {
+        padding: 10px 6px;
+    }
+    .primary-manu ul li ul {
+        left: 100px;
+        top: -60px;
+        background-color: #fff;
+    }
+    .primary-manu ul li ul li {
+        margin-left: -5px;
+        background: #fafafa;
+    }
+    .primary-manu ul li ul li a {
+        padding: 9px 30px !important;
+    }
+    .mobile-menu-check {
+        width: 40px;
+        height: 40px;
+        opacity: 0;
+        cursor: pointer;
+        display: block;
+    }
+    .primary-manu .mobile-menu-check:checked ~ span{
+        color: #000;
+    }
+    .primary-manu .mobile-menu-check:checked ~ ul{
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+    }
+    .primary-manu span {
+        display: block;
+        font-size: 40px;
+        color: #6278df;
+        cursor: pointer;
+        position: absolute;
+        left: 23px;
+        top: 84px;
+        pointer-events: none;
+    }
+   
+    .header-button {
+        width: 200px;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    .video-left {
+        width: 100%;
+    }
+    .video-content {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .service-content h1 {
+        font-size: 36px;
+        font-weight: 500;
+    }
+    .service-content p {
+        font-size: 20px;
+    }
+    .prizing-table-items {
+        width: 100%;
+        margin-right: 0;
+    }
+    .subscribe-title p {
+        font-size: 21px;
+    }
+    .subscribe-title h2 {
+        font-size: 40px;
+        margin: -70px 0 -32px 0;
+    }
+    .bolger img {
+        width: 451px;
+        margin-bottom: 20px;
+    }
+    .b-title-2 {
+        padding: 10px 20px;
+    }
+    .t-item {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .contact-left-row {
+        width: 100%;
+    }
+    .contact-right-row {
+        width: 100%;
+    }
+}
+@media (max-width:768px){
+    .banner-content h2 {
+        font-size: 44px;
+        margin: 16px 0;
+    }
+    .service-content h1 {
+        margin-bottom: 5px;
+        font-size: 29px;
+    }
+    .service-content p {
+        font-size: 18px;
+    }
+    .sevice-box {
+        width: 100%;
+    }
+    .sevice-box:nth-child(3n+3) {
+        margin-right: 20px;
+    }
+    .sevice-box:nth-child(2n+2) {
+        margin-right: 20px;
+    } 
+    .sevice-box:nth-child(1n+1) {
+        margin-right: 20px;
+    } 
+    .t-title h1 {
+        font-size: 31px;
+    }
+    .default-input {
+        width: 95%;
+        margin-right: 2%;
+        margin-bottom: 20px;
+    }
+    .blog-title {
+        margin: 35px 0;
+    }
+    .bt1 h1 {
+        font-size: 40px;
+    }
+    .bt2 p {
+        font-size: 18px;
+    }
+    .footer p {
+        font-size: 18px;
+        color: #000;
+    }
+    .section-title h2 {
+        font-size: 40px;
+    }
+    .section-title p {
+        font-size: 15px;
+        padding-bottom: 30px;
+    }
+}
+@media (max-width:576px){
+    .banner-section {
+        padding: 100px 0;
+        margin-top: 61px;
+    }
+    .banner-content h3 {
+        font-size: 15px;
+        margin-bottom: -7px;
+    }
+    .banner-content h2 {
+        font-size: 29px;
+        margin: 15px 0;
+        font-weight: 600;
+    }
+    .default-btn {
+        padding: 10px 0px;
+        font-size: 20px;
+        width: 70%;
+        margin-bottom: 10px;
+    }
+    .service-content h1 {
+        font-size: 20px;
+    }
+    .service-content p {
+        font-size: 14px;
+    }
+    .p-content ul li {
+        font-size: 20px;
+        padding: 15px 0 0px 25px;
+    }
+    .p-content ul li span {
+        font-size: 26px;
+        width: 40px;
+    }
+    .t-title h1 {
+        font-size: 24px;
+    }
+    .member-data {
+        width: 100%;
+        margin-right: 0;
+    }
+    .subscribe-title p {
+        font-size: 15px;
+    }
+    .subscribe-title h2 {
+        font-size: 30px;
+    }
+    .bt1 {
+        width: 100%;
+        text-align: center;
+    }
+    .bt2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .bolger {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .bolger img {
+        width: 100%;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+}
+@media (max-width:296px){
+    .primary-manu span {
+        top: 129px;
+    }
+    .header-button {
+        width: 150px;
+        top: 123px;
+    }
+    .header-btn {
+        padding: 7px 24px;
+    }
+}
